@@ -2,6 +2,9 @@
  #include <iostream>
 
 int main() {
+	
+
+
 	/* Her alt baþlýk için islem adýnda integer oluþturdum.1-2-3-4 diye sýraladým ve en geniþ baþlýk olan "islem" için 0 deðerini atadým.
 	Ýleride buraya dönmek istediðimde islem=0 komutunu kullanacaðým.
 	Hesabýn tutarý uzun bir sayý çýkabileceðinden dolayý long olarak tanýmladým ve en baþta sýfýrdan baþlamasý gerektiðini düþündüðümden 0 deðerini atadým.*/
@@ -412,7 +415,7 @@ int main() {
 		while (islem==4)
 		{
 			printf("\n******************************************\n");	   
-	        printf("Siparis Sonlandirma Ekrani\n");
+	        printf("Siparis Sonlandirma Ekrani\n\n");
 	        printf("Siparisinizi sonlandirmak istediginize emin misiniz?\n");
 	        printf("Evet ise 1'i, Hayir ise 2'yi tuslayin.\n");
 	        printf("Seciminiz:");
@@ -422,7 +425,7 @@ int main() {
 	    	{
 	    		printf("Hatali secim yaptiniz.Lutfen tekrar deneyiniz.");
 	    		printf("Seciminiz: ");
-				scanf("%d",islem2);
+				scanf("%d",&islem2);
 			}
 			if(islem2==1)
 			{
