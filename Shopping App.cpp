@@ -153,6 +153,7 @@ int main() {
 			if(islem2==1)
 		    {
 	            printf("Lutfen sepetinize Akilli Telefon kategorisinden hangi urunu eklemek istediginizi secin.");
+	            printf("\nAkilli Telefon-1 : 3099 TL\nAkilli Telefon-2 : 2799 TL\nAkilli Telefon-3 : 1899 TL\nAkilli Telefon-4 : 2149 TL\n");
 	            printf("Seciminiz: ");
 	            scanf("%d",&islem3);
 	            //Kategori içinde de ürün seçimi yapmamýz gerektiðinden kullancýdan tekrar veri almam gerekiyor.
@@ -212,6 +213,7 @@ int main() {
 			else if(islem2==2)
 		    {
 	            printf("Lutfen sepetinize Akilli Saat kategorisinden hangi urunu eklemek istediginizi secin.");
+	            printf("\nAkilli Saat-1 : 999 TL\nAkilli Saat-2 : 899 TL\nAkilli Saat-3 : 1489 TL\nAkilli Saat-4 : 689 TL\n");
 	            printf("Seciminiz: ");
 	            scanf("%d",&islem3);
 	            while (0>=islem3 || islem3>4)
@@ -268,7 +270,8 @@ int main() {
 			else if(islem2==3)
 		    {
 	            printf("Lutfen sepetinize Kablosuz Kulaklik kategorisinden hangi urunu eklemek istediginizi secin.");
-	            printf("Seciminiz: ");
+	            printf("\nKablosuz Kulaklik-1 : 149 TL\nKablosuz Kulaklik-2 : 259 TL\nKablosuz Kulaklik-3 : 459 TL\nKablosuz Kulaklik-4 : 799 TL\n");
+				printf("Seciminiz: ");
 	            scanf("%d",&islem3);
 	            while (0>=islem3 || islem3>4)
 				{
@@ -324,6 +327,7 @@ int main() {
 			else if(islem2==4)
 		    {
 	            printf("Lutfen sepetinize Bilgisayar kategorisinden hangi urunu eklemek istediginizi secin.");
+	            printf("\nBilgisayar-1 : 6999 TL\nBilgisayar-2 : 9799 TL\nBilgisayar-3 : 12599 TL\nBilgisayar-4 : 16999 TL\n");
 	            printf("Seciminiz: ");
 	            scanf("%d",&islem3);
 	            while (0>=islem3 || islem3>4)
@@ -380,7 +384,7 @@ int main() {
 		}	
 		//3. kýsýma geldik.
 		// Bu kýsýmda kullanýcýnýn sepetine eklediði ürünlerin fiyatlarý ekrana yazdýrýlacak.
-		// Sizin gibi özel müþterilimiz için indirim de tanýmladým.Çýkan tutardaki birler basamaðýný sýfýrlýyorum.
+		// Sizin gibi özel müþterilimiz için indirim de tanýmladým :). Çýkan tutardaki birler basamaðýný sýfýrlýyorum.
 		//Çýkan ekranda hem normal tutar hem de indirimli tutarý görebileceksiniz.
 		while(islem==3)
 		{
